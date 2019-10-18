@@ -1,0 +1,64 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+body {
+    background: #d4ebf2;
+    color: #000;
+    margin: 4rem;
+    align-items: center;
+}
+
+#graphone {
+    width: 60%;
+    height: 500px;
+    align-content: center;
+}
+
+#graphtwo {
+  width: 60%;
+  height: 500px;
+  align-content: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Arial Black';
+}
+
+p {
+    line-height: 1.5;
+    text-align: center;
+    font-family: 'Georgia';
+}
+
+code {
+    font-size: 1.4rem;
+    font-style: monotype;
+    color: #666;
+}
+
+/* link styles */
+a {
+    color: #0287b3;
+}
+
+a:hover {
+    color: #3ecbfa;
+}
+
+
+@media screen and (max-width: 1000px) {
+    #container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    body {
+        margin: 1rem;
+    }
+}
